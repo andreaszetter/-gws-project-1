@@ -1,8 +1,8 @@
 # Contributing to Our Game Project
 
-Thanks for being part of this creative journey! Here's how to make the most of our collaboration.
+Thanks for being part of this journey! Please refer to this text for reference when collaborating.
 
-## How to Share Ideas
+## How to Share Your Ideas
 
 ### 1. Quick Thoughts & Brainstorming
 
@@ -10,7 +10,7 @@ For raw ideas and brainstorming:
 
 1. Open [IDEAS.md](IDEAS.md)
 2. Add your thoughts to the relevant section
-3. Commit with a descriptive message like "Add idea about puzzle mechanics"
+3. Commit with a descriptive message like "Added idea on cool character idea"
 4. Don't overthink it!
 
 ### 2. Detailed Concepts
@@ -81,7 +81,7 @@ Want thoughts on an idea?
 
 ## Questions?
 
-Just ask! We're all learning and creating together.
+Just ask! We're all learning and creating together. Please reach out to one of us for clarification <3
 
 ---
 
