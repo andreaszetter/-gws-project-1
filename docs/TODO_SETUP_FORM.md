@@ -57,6 +57,20 @@ git commit -m "Update Google Form URLs with actual form link"
 git push
 ```
 
+### 7. Set Up Automation (Recommended)
+
+**Want form submissions to automatically appear in your repository?**
+
+Once the basic form is working, set up automation to have submissions automatically committed to IDEAS.md:
+
+📖 **Follow the instructions in [AUTOMATION_SETUP.md](AUTOMATION_SETUP.md)**
+
+Benefits:
+- ✅ No manual processing needed
+- ✅ Ideas appear in repository within 1 minute
+- ✅ Takes about 15-20 minutes to set up
+- ✅ Works completely automatically once configured
+
 ## Example
 
 If your form URL is `https://forms.gle/ABC123xyz`, you would replace:

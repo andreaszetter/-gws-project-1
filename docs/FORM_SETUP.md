@@ -93,18 +93,34 @@ This document explains how to set up and manage the Google Form for easy game id
 
 ## Processing Form Submissions
 
-### Automated Processing (Future Enhancement)
-You can set up Google Forms to send responses to a Google Sheet, which can then trigger automated actions:
-- Responses → Google Sheets
-- Google Apps Script → Format submissions
-- GitHub API → Create automated PR or issue with the idea
+### Automated Processing (Recommended!)
 
-### Manual Processing (Current Method)
+**✨ NEW: Full automation is now available!**
+
+You can set up complete automation so form submissions automatically appear in your GitHub repository:
+- Responses → Google Sheets → Apps Script → GitHub API → Committed to IDEAS.md
+- No manual intervention needed!
+- Ideas appear in the repository within 1 minute
+
+**📖 See [AUTOMATION_SETUP.md](AUTOMATION_SETUP.md) for complete setup instructions.**
+
+Key benefits:
+- ✅ Automatic commits to IDEAS.md
+- ✅ Proper markdown formatting
+- ✅ Contributor attribution
+- ✅ No manual work required
+- ✅ Setup takes about 15-20 minutes
+
+### Manual Processing (Alternative Method)
+
+If you prefer not to use automation, you can manually process submissions:
 1. Regularly check form responses (Settings → Responses tab)
 2. Review new ideas
 3. Add them to IDEAS.md or create detailed docs in the appropriate folder
 4. Credit the contributor if they provided their name
 5. Thank contributors and notify them when their idea is added
+
+**See [FORM_SUBMISSION_TEMPLATE.md](FORM_SUBMISSION_TEMPLATE.md) for the manual processing template.**
 
 ## Example Workflow
 

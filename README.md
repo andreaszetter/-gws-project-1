@@ -26,8 +26,9 @@ Perfect for quick contributions! No Git or GitHub knowledge required.
 - Takes just a few minutes
 - Mobile-friendly
 - Can submit anonymously
+- **Automatically added to the repository** - your idea appears within 1 minute!
 
-*Note: The form maintainer will review your submission and add it to the repository.*
+*Note: Form submissions are automatically processed and committed to IDEAS.md.*
 
 #### Option 2: Direct Repository Editing
 
@@ -63,7 +64,11 @@ For those comfortable with Git/GitHub:
 - [Ideas & Brainstorming](IDEAS.md)
 - [How to Contribute](CONTRIBUTING.md)
 - [Design Documents](docs/)
-- [Form Setup Guide](docs/FORM_SETUP.md) - For maintainers
+
+### For Maintainers
+- [Form Setup Guide](docs/FORM_SETUP.md) - How to create the form
+- [Automation Setup Guide](docs/AUTOMATION_SETUP.md) - **How to automate form processing**
+- [Automation Quick Reference](docs/AUTOMATION_QUICK_REFERENCE.md) - Maintaining the automation
 
 ---
 
