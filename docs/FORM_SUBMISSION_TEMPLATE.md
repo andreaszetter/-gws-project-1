@@ -11,7 +11,7 @@ Use this template when adding ideas from Google Form submissions to IDEAS.md
 - **Category**: [Copy from form: Category]
 - **Key Features**: [Copy from form: Detailed Description - if provided]
 - **Inspiration**: [Copy from form: Inspiration - if provided]
-- **Excitement Level**: [X/5] [Copy from form: Priority/Excitement - if provided]
+- **Excitement Level**: [Number/5] (where Number is from form: Priority/Excitement - if provided)
 - **Added by**: [Copy from form: Your Name - if provided] - [Submission date from form]
 
 [Copy from form: Additional Comments - if provided]

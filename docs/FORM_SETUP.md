@@ -140,4 +140,4 @@ You can set up Google Forms to send responses to a Google Sheet, which can then 
 
 ---
 
-*Last updated: [Date when form is created]*
+*Last updated: [YYYY-MM-DD when form is created]*

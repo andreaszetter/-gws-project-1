@@ -28,7 +28,7 @@ Replace `https://forms.google.com/` with your actual form URL in these files:
 
 You can use this command to find all instances:
 ```bash
-grep -n "https://forms.google.com/" *.md docs/*.md
+find . -name "*.md" -type f -exec grep -n "https://forms.google.com/" {} +
 ```
 
 Or use find and replace in your editor to replace all at once.
