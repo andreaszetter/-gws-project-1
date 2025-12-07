@@ -1,0 +1,31 @@
+# General
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-*
+.vs/
+
+# Personal notes (add your private notes to a .personal/ folder)
+.personal/
+
+# Build artifacts (add these as needed when we start coding)
+build/
+dist/
+out/
+bin/
+obj/
+
+# Dependencies (add these as needed when we start coding)
+node_modules/
+venv/
+.env
+
+# OS
+.DS_Store
+desktop.ini
