@@ -1,6 +1,7 @@
 # Game Ideas & Brainstorming
 
 This document is our collaborative space for game ideas. Add anything that comes to mind - concepts, mechanics, themes, inspirations, or random thoughts. We'll refine and develop these ideas together over time.
+Remember that the example format is just that and example. Don't feel the need to add things that isnt applicable to your contribution
 
 ## Current Ideas
 
@@ -11,12 +12,12 @@ This document is our collaborative space for game ideas. Add anything that comes
 ---
 
 **Example Format:**
-- **Idea Name**: [Your idea title]
-- **Core Concept**: [Brief description]
+- **Idea Name**: [Title your idea]
+- **Core Concept**: [Brief description of idea]
 - **Genre/Type**: [Game type/genre]
 - **Key Features**: [What makes it interesting?]
 - **Inspiration**: [What inspired this?]
-- **Added by**: [Your name] - [Date]
+- **Added by**: [Your name or "Anonymous"] - [Date]
 
 ---
 
