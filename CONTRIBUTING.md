@@ -4,7 +4,34 @@ Thanks for being part of this creative journey! Here's how to make the most of o
 
 ## How to Share Ideas
 
-### 1. Quick Thoughts & Brainstorming
+We offer multiple ways to contribute, so you can choose what works best for you!
+
+### 🌟 Option 1: Contribution Form (Recommended for Quick Ideas!)
+
+**📝 [Submit Your Idea via Google Form](https://forms.google.com/)**
+
+This is the **easiest way** to share your ideas:
+
+✅ **No Git/GitHub knowledge needed**  
+✅ **Takes just a few minutes**  
+✅ **Mobile-friendly** - submit ideas anywhere  
+✅ **Submit anonymously** if you prefer  
+✅ **Structured format** helps capture all details  
+
+**How it works:**
+1. Click the form link above
+2. Fill out the questions about your idea
+3. Submit!
+4. A team member will review and add your idea to the repository
+
+**What happens next:**  
+Your idea will be reviewed and added to our IDEAS.md file or detailed documentation within a few days. We'll credit you if you provided your name!
+
+---
+
+### 💻 Option 2: Direct Repository Editing (For Git Users)
+
+#### 1. Quick Thoughts & Brainstorming
 
 For raw ideas and brainstorming:
 
@@ -13,7 +40,7 @@ For raw ideas and brainstorming:
 3. Commit with a descriptive message like "Add idea about puzzle mechanics"
 4. No need to overthink it - rough ideas are perfect!
 
-### 2. Detailed Concepts
+#### 2. Detailed Concepts
 
 For more developed ideas that need space:
 
@@ -24,7 +51,7 @@ For more developed ideas that need space:
 2. Use a clear filename like `roguelike-combat-system.md`
 3. Include as much or as little detail as you want
 
-### 3. Building on Others' Ideas
+#### 3. Building on Others' Ideas
 
 - Add comments directly in the relevant markdown file
 - Use quotes (`>`) to reference the original idea
@@ -81,6 +108,14 @@ Want thoughts on an idea?
 ## Questions?
 
 Just ask! We're all learning and creating together.
+
+## For Form Maintainers
+
+If you're responsible for processing form submissions, check out [docs/FORM_SETUP.md](docs/FORM_SETUP.md) for detailed instructions on:
+- Setting up the Google Form
+- Processing submissions
+- Adding ideas to the repository
+- Best practices for form maintenance
 
 ---
 
