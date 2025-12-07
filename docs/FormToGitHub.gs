@@ -14,6 +14,7 @@
  * - GITHUB_OWNER: Repository owner (username or organization)
  * - GITHUB_REPO: Repository name
  * - GITHUB_BRANCH: Branch to commit to (usually 'main')
+ * - GITHUB_FILE_PATH: Path to the file to update (default: 'IDEAS.md')
  */
 
 /**
@@ -159,6 +160,7 @@ function commitToGitHub(markdown, ideaTitle) {
     const owner = properties.getProperty('GITHUB_OWNER');
     const repo = properties.getProperty('GITHUB_REPO');
     const branch = properties.getProperty('GITHUB_BRANCH') || 'main';
+    const filePath = properties.getProperty('GITHUB_FILE_PATH') || 'IDEAS.md';
     
     // Validate configuration
     if (!token || !owner || !repo) {
@@ -166,9 +168,7 @@ function commitToGitHub(markdown, ideaTitle) {
       return false;
     }
     
-    const filePath = 'IDEAS.md';
-    
-    // Step 1: Get the current content of IDEAS.md
+    // Step 1: Get the current content of the target file
     const currentContent = getFileContent(owner, repo, filePath, branch, token);
     if (currentContent === null) {
       Logger.log('Failed to get current file content');
@@ -176,7 +176,7 @@ function commitToGitHub(markdown, ideaTitle) {
     }
     
     // Step 2: Append new idea to the content
-    const updatedContent = currentContent + markdown;
+    const updatedContent = currentContent.content + markdown;
     
     // Step 3: Commit the updated content
     const commitMessage = 'Add idea from form: ' + ideaTitle;
@@ -200,9 +200,10 @@ function getFileContent(owner, repo, path, branch, token) {
     const options = {
       'method': 'GET',
       'headers': {
-        'Authorization': 'token ' + token,
-        'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'Google-Apps-Script'
+        'Authorization': 'Bearer ' + token,
+        'Accept': 'application/vnd.github+json',
+        'User-Agent': 'Google-Apps-Script',
+        'X-GitHub-Api-Version': '2022-11-28'
       },
       'muteHttpExceptions': true
     };
@@ -246,10 +247,11 @@ function updateFile(owner, repo, path, branch, content, message, sha, token) {
     const options = {
       'method': 'PUT',
       'headers': {
-        'Authorization': 'token ' + token,
-        'Accept': 'application/vnd.github.v3+json',
+        'Authorization': 'Bearer ' + token,
+        'Accept': 'application/vnd.github+json',
         'User-Agent': 'Google-Apps-Script',
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'X-GitHub-Api-Version': '2022-11-28'
       },
       'payload': JSON.stringify(payload),
       'muteHttpExceptions': true
@@ -284,19 +286,21 @@ function testConfiguration() {
   Logger.log('GITHUB_OWNER: ' + (properties.getProperty('GITHUB_OWNER') ? 'Set ✓' : 'Missing ✗'));
   Logger.log('GITHUB_REPO: ' + (properties.getProperty('GITHUB_REPO') ? 'Set ✓' : 'Missing ✗'));
   Logger.log('GITHUB_BRANCH: ' + (properties.getProperty('GITHUB_BRANCH') || 'main (default)'));
+  Logger.log('GITHUB_FILE_PATH: ' + (properties.getProperty('GITHUB_FILE_PATH') || 'IDEAS.md (default)'));
   Logger.log('GITHUB_TOKEN: ' + (properties.getProperty('GITHUB_TOKEN') ? 'Set ✓' : 'Missing ✗'));
   
   // Test GitHub API access
   const token = properties.getProperty('GITHUB_TOKEN');
   const owner = properties.getProperty('GITHUB_OWNER');
   const repo = properties.getProperty('GITHUB_REPO');
+  const filePath = properties.getProperty('GITHUB_FILE_PATH') || 'IDEAS.md';
   
   if (token && owner && repo) {
     Logger.log('\nTesting GitHub API access...');
-    const fileContent = getFileContent(owner, repo, 'IDEAS.md', properties.getProperty('GITHUB_BRANCH') || 'main', token);
+    const fileContent = getFileContent(owner, repo, filePath, properties.getProperty('GITHUB_BRANCH') || 'main', token);
     if (fileContent) {
       Logger.log('Successfully connected to GitHub! ✓');
-      Logger.log('Current IDEAS.md length: ' + fileContent.content.length + ' characters');
+      Logger.log('Current ' + filePath + ' length: ' + fileContent.content.length + ' characters');
     } else {
       Logger.log('Failed to connect to GitHub ✗');
     }

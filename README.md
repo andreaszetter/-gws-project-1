@@ -60,7 +60,7 @@ For those comfortable with Git/GitHub:
 
 ## Quick Links
 
-- **[📝 Submit an Idea (Google Form)]([https://forms.google.com/](https://forms.gle/kj75xBqZYHFQRXNSA))** - Easiest way to contribute!
+- **[📝 Submit an Idea (Google Form)](https://forms.gle/kj75xBqZYHFQRXNSA)** - Easiest way to contribute!
 - [Ideas & Brainstorming](IDEAS.md)
 - [How to Contribute](CONTRIBUTING.md)
 - [Design Documents](docs/)

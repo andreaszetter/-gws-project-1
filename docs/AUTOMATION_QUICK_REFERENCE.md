@@ -82,10 +82,11 @@ When your token expires:
 Required properties in Apps Script → Project Settings:
 
 ```
-GITHUB_TOKEN     = ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-GITHUB_OWNER     = andreaszetter
-GITHUB_REPO      = -gws-project-1
-GITHUB_BRANCH    = main
+GITHUB_TOKEN        = ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+GITHUB_OWNER        = andreaszetter
+GITHUB_REPO         = -gws-project-1
+GITHUB_BRANCH       = main
+GITHUB_FILE_PATH    = IDEAS.md (optional, this is the default)
 ```
 
 ## Useful Apps Script Functions

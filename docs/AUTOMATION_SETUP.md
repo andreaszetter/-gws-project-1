@@ -71,10 +71,13 @@ The script needs to know your repository details and GitHub token.
    | `GITHUB_OWNER` | Your GitHub username or organization | `andreaszetter` |
    | `GITHUB_REPO` | Repository name | `-gws-project-1` |
    | `GITHUB_BRANCH` | Branch to commit to | `main` |
+   | `GITHUB_FILE_PATH` | *(Optional)* File to update | `IDEAS.md` (default) |
 
 4. Click "Save script properties"
 
 **⚠️ Security Note**: Script properties are encrypted and only accessible to the script. Never hardcode your token in the script itself!
+
+**💡 Optional Property**: The `GITHUB_FILE_PATH` property is optional. If not set, ideas will be added to `IDEAS.md` by default. You can set this if you want to use a different file.
 
 ## Step 5: Set Up the Form Trigger
 
