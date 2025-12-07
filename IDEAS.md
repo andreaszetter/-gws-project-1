@@ -38,3 +38,12 @@ What kinds of games, stories, or experiences are we drawn to? Add references her
 ---
 
 *Remember: No idea is too wild or too simple. Everything helps us, and the fact that you saw fit to help us means a lot! <3*
+
+---
+
+- **Idea Name**: MAYBE like the lion 
+- **Core Concept**: I think a lion with like a big sword would be cool ?
+- **Added by**: andyman - 2025-12-07
+
+just an idea 
+
