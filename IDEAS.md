@@ -28,16 +28,6 @@ What kinds of games, stories, or experiences are we drawn to? Add references her
 
 - [ ] *Add your inspirations, favorite games, or themes that interest you*
 
-## Questions to Explore
-
-Things we're thinking about as we develop our game concept:
-
-- What kind of experience do we want players to have?
-- Single-player or multiplayer?
-- What platform(s) are we targeting?
-- What's our scope - small prototype or larger project?
-- What skills do we want to develop through this?
-
 ## Next Steps
 
 - [ ] Fill out initial ideas above
