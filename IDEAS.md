@@ -50,9 +50,5 @@ just an idea
 
 ---
 
-- **Idea Name**: Make it g*y
-- **Core Concept**: Make it s*xy
-- **Added by**: Raoul - 2025-12-07
 
-And make it black...
 
