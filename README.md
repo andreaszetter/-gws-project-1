@@ -15,6 +15,23 @@ This repository is a creative workspace for us to share ideas, thoughts, and con
 
 ### Sharing Ideas
 
+We've made it easy to contribute your game ideas in two ways:
+
+#### Option 1: Use Our Contribution Form (Easiest!)
+
+**📝 [Submit an Idea via Google Form](https://forms.google.com/)**
+
+Perfect for quick contributions! No Git or GitHub knowledge required.
+- Fill out a simple form with your idea
+- Takes just a few minutes
+- Mobile-friendly
+- Can submit anonymously
+
+*Note: The form maintainer will review your submission and add it to the repository.*
+
+#### Option 2: Direct Repository Editing
+
+For those comfortable with Git/GitHub:
 1. Check out the [IDEAS.md](IDEAS.md) file to see current game concepts
 2. Add your thoughts, suggestions, or new ideas
 3. Don't worry about polish - raw thoughts are welcome!
@@ -42,9 +59,11 @@ This repository is a creative workspace for us to share ideas, thoughts, and con
 
 ## Quick Links
 
+- **[📝 Submit an Idea (Google Form)](https://forms.google.com/)** - Easiest way to contribute!
 - [Ideas & Brainstorming](IDEAS.md)
 - [How to Contribute](CONTRIBUTING.md)
 - [Design Documents](docs/)
+- [Form Setup Guide](docs/FORM_SETUP.md) - For maintainers
 
 ---
 
