@@ -27,5 +27,4 @@ venv/
 .env
 
 # OS
-.DS_Store
 desktop.ini
