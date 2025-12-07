@@ -19,7 +19,7 @@ We've made it easy to contribute your game ideas in two ways:
 
 #### Option 1: Use Our Contribution Form (Easiest!)
 
-**📝 [Submit an Idea via Google Form]([(https://forms.gle/kj75xBqZYHFQRXNSA)])**
+**📝 [Submit an Idea via Google Form](https://forms.gle/kj75xBqZYHFQRXNSA)**
 
 Perfect for quick contributions! No Git or GitHub knowledge required.
 - Fill out a simple form with your idea
