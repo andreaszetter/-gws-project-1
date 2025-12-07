@@ -14,8 +14,7 @@ Remember that the example format is just that and example. Don't feel the need t
 **Example Format:**
 - **Idea Name**: [Title your idea]
 - **Core Concept**: [Brief description of idea]
-- **Genre/Type**: [Game type/genre]
-- **Key Features**: [What makes it interesting?]
+- **Genre/Type**: [Could be "game mechanic" for example]
 - **Inspiration**: [What inspired this?]
 - **Added by**: [Your name or "Anonymous"] - [Date]
 
