@@ -2,6 +2,9 @@
 
 This document explains how to set up and manage the Google Form for easy game idea contributions.
 
+> **⚠️ IMPORTANT:** After creating your form, don't forget to replace the placeholder URLs in the documentation!  
+> See [TODO_SETUP_FORM.md](TODO_SETUP_FORM.md) for instructions on replacing placeholder URLs with your actual form link.
+
 ## Creating the Google Form
 
 1. Go to [Google Forms](https://forms.google.com/)
