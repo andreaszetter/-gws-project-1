@@ -48,4 +48,4 @@ Things we're thinking about as we develop our game concept:
 
 ---
 
-*Remember: No idea is too wild or too simple. Everything helps us explore what we want to create!*
+*Remember: No idea is too wild or too simple. Everything helps us, and the fact that you saw fit to help us means a lot! <3*
