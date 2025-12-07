@@ -1,8 +1,8 @@
 # Contributing to Our Game Project
 
-Thanks for being part of this creative journey! Here's how to make the most of our collaboration.
+Thanks for being part of this journey! Please refer to this text for reference when collaborating.
 
-## How to Share Ideas
+## How to Share Your Ideas
 
 We offer multiple ways to contribute, so you can choose what works best for you!
 
@@ -37,8 +37,8 @@ For raw ideas and brainstorming:
 
 1. Open [IDEAS.md](IDEAS.md)
 2. Add your thoughts to the relevant section
-3. Commit with a descriptive message like "Add idea about puzzle mechanics"
-4. No need to overthink it - rough ideas are perfect!
+3. Commit with a descriptive message like "Added idea on cool character idea"
+4. Don't overthink it!
 
 #### 2. Detailed Concepts
 
@@ -84,16 +84,17 @@ docs/
 
 ## What to Commit
 
-✅ **DO commit:**
+**DO commit:**
 - Ideas and concepts
 - Design documents
 - Sketches and diagrams (as images)
 - References and inspirations
 - Meeting notes or discussion summaries
 
-❌ **DON'T commit:**
+**DON'T commit:**
 - Large binary files without discussion
 - Generated files or build artifacts
+- AI-generated Slop
 - Personal notes meant to stay private
 
 ## Getting Feedback
@@ -107,7 +108,7 @@ Want thoughts on an idea?
 
 ## Questions?
 
-Just ask! We're all learning and creating together.
+Just ask! We're all learning and creating together. Please reach out to one of us for clarification <3
 
 ## For Form Maintainers
 
@@ -119,4 +120,4 @@ If you're responsible for processing form submissions, check out [docs/FORM_SETU
 
 ---
 
-*"Alone we can do so little; together we can do so much." - Helen Keller*
+*"Coming together is a beginning; staying together is progress; working together is success." - Edward Everest Hale*

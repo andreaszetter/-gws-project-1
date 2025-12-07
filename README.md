@@ -1,6 +1,6 @@
 # Game Workshop Space - Project 1
 
-Welcome to our collaborative game development space! 🎮
+Welcome to our ideas page! 🎮
 
 ## Purpose
 
@@ -9,7 +9,7 @@ This repository is a creative workspace for us to share ideas, thoughts, and con
 - A central hub for brainstorming game concepts
 - A place to document our thoughts and inspirations
 - A collaborative environment to evolve our ideas together
-- A foundation for our future game development
+- A foundation for our future prototyping
 
 ## Getting Started
 
