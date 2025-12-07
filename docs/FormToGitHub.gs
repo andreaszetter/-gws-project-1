@@ -64,11 +64,6 @@ function extractFormData(itemResponses) {
     name: '',
     title: '',
     concept: '',
-    category: '',
-    details: '',
-    genre: '',
-    inspiration: '',
-    excitement: '',
     comments: '',
     timestamp: new Date()
   };
@@ -85,16 +80,6 @@ function extractFormData(itemResponses) {
       data.title = answer;
     } else if (question.includes('core concept')) {
       data.concept = answer;
-    } else if (question.includes('category')) {
-      data.category = answer;
-    } else if (question.includes('detailed description')) {
-      data.details = answer;
-    } else if (question.includes('genre') || question.includes('type')) {
-      data.genre = answer;
-    } else if (question.includes('inspiration')) {
-      data.inspiration = answer;
-    } else if (question.includes('excitement') || question.includes('priority')) {
-      data.excitement = answer;
     } else if (question.includes('additional comments') || question.includes('comments')) {
       data.comments = answer;
     }
@@ -111,28 +96,7 @@ function formatAsMarkdown(data) {
   
   // Required fields
   markdown += '- **Idea Name**: ' + data.title + '\n';
-  markdown += '- **Core Concept**: ' + data.concept + '\n';
-  
-  // Optional fields - only add if provided
-  if (data.genre) {
-    markdown += '- **Genre/Type**: ' + data.genre + '\n';
-  }
-  
-  if (data.category) {
-    markdown += '- **Category**: ' + data.category + '\n';
-  }
-  
-  if (data.details) {
-    markdown += '- **Details**: ' + data.details + '\n';
-  }
-  
-  if (data.inspiration) {
-    markdown += '- **Inspiration**: ' + data.inspiration + '\n';
-  }
-  
-  if (data.excitement) {
-    markdown += '- **Excitement Level**: ' + data.excitement + '/5\n';
-  }
+  markdown += '- **Core Concept**: ' + data.concept + '\n';  
   
   // Attribution
   const contributor = data.name || 'Anonymous';
