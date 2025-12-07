@@ -47,3 +47,12 @@ What kinds of games, stories, or experiences are we drawn to? Add references her
 
 just an idea 
 
+
+---
+
+- **Idea Name**: Make it gay
+- **Core Concept**: Make it sexy
+- **Added by**: Raoul - 2025-12-07
+
+And make it black...
+
