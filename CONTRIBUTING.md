@@ -110,14 +110,6 @@ Want thoughts on an idea?
 
 Just ask! We're all learning and creating together. Please reach out to one of us for clarification <3
 
-## For Form Maintainers
-
-If you're responsible for processing form submissions, check out [docs/FORM_SETUP.md](docs/FORM_SETUP.md) for detailed instructions on:
-- Setting up the Google Form
-- Processing submissions
-- Adding ideas to the repository
-- Best practices for form maintenance
-
 ---
 
-*"Coming together is a beginning; staying together is progress; working together is success." - Edward Everest Hale*
+*"GWS is a lifestyle. A statement. Blazingly fast"*
