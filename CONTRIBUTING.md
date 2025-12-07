@@ -8,7 +8,7 @@ We offer multiple ways to contribute, so you can choose what works best for you!
 
 ### 🌟 Option 1: Contribution Form (Recommended for Quick Ideas!)
 
-**📝 [Submit Your Idea via Google Form]([https://forms.google.com/](https://forms.gle/kj75xBqZYHFQRXNSA))**
+**📝 [Submit Your Idea via Google Form](https://forms.gle/kj75xBqZYHFQRXNSA)**
 
 This is the **easiest way** to share your ideas:
 
